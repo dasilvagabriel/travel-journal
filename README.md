@@ -1,4 +1,4 @@
-# co9b34a2792a89f8b2fed9fa4
+# Travel Journal
 
 Quick start:
 
