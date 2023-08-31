@@ -22,7 +22,7 @@ export default function GitHubButton() {
             boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)',
             justifyContent: 'center'
         }}>
-            <a href="https://github.com/dasilvagabriel/airbnb-clone" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/dasilvagabriel/travel-journal" target="_blank" rel="noopener noreferrer" 
                style={{textDecoration: 'none', display: 'flex', alignItems: 'center'}}>
                 <GitHubIcon sx={{ mr: 1 }} /> <b>Check the code</b>
             </a>
