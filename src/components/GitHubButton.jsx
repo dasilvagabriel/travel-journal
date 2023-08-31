@@ -1,38 +1,31 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub'; // Import GitHub icon from MUI
-import { makeStyles } from '@mui/styles';
-
-const useStyles = makeStyles({
-    githubButton: {
-        position: 'fixed',
-        bottom: '20px',
-        right: '20px',
-        display: 'flex',
-        alignItems: 'center',
-        backgroundColor: '#333',
-        padding: '10px 15px',
-        borderRadius: '25px',
-        color: 'white',
-        textDecoration: 'none',
-        fontWeight: 'bold',
-        boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)',
-        transition: 'background-color 0.3s',
-        '&:hover': {
-            backgroundColor: '#555',
-        }
-    },
-    githubLogo: {
-        marginRight: '10px'
-    }
-});
+import Box from '@mui/material/Box';
+import { GitHub as GitHubIcon } from '@mui/icons-material';
 
 export default function GitHubButton() {
-    const classes = useStyles();
-
     return (
-        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME" target="_blank" rel="noopener noreferrer" className={classes.githubButton}>
-            <GitHubIcon className={classes.githubLogo} />
-            <span>Check the Code</span>
-        </a>
+        <Box sx={{
+            position: 'fixed',
+            bottom: '10vh',
+            right: '5vw',
+            cursor: 'pointer',
+            zIndex: 10,
+            width: '140px',
+            height: '40px',
+            color: 'black',
+            backgroundColor: 'white',
+            fontSize: '12px',
+            fontFamily: 'Inter',
+            borderRadius: '20px',
+            padding: '8px',
+            textAlign: 'center',
+            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)',
+            justifyContent: 'center'
+        }}>
+            <a href="https://github.com/dasilvagabriel/airbnb-clone" target="_blank" rel="noopener noreferrer" 
+               style={{textDecoration: 'none', display: 'flex', alignItems: 'center'}}>
+                <GitHubIcon sx={{ mr: 1 }} /> <b>Check the code</b>
+            </a>
+        </Box>
     );
 }
