@@ -1,7 +1,7 @@
 import React from "react"
-import Card from "./components/Card"
-import Navbar from "./components/Navbar"
-import data from "./data"
+import Card from "./travel-j/src/components/Card.jsx"
+import Navbar from "./travel-j/src/components/Navbar.jsx"
+import data from "./travel-j/src/data.js"
 
 export default function App(){
     const cards = data.map(function(item){

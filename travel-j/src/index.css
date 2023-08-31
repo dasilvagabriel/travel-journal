@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  width: 100;
+  height: 55px;
+  margin-bottom:40px;
+}
+
+.navbar--img{
+  height: 16px;
+  margin-right: 10px;
+}
+
+.navbar--text{
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card{
+  display: flex;
+  width: 470px;
+  font-size: 11px;
+  margin: 28px 40px 28px 40px;;
+}
+
+.card--image{
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.card--location-info{
+  display: flex;
+  align-items: flex-end;
+}
+
+.card--location{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 12px;
+  margin-left: 4px;
+}
+
+.card--icon{
+  width: 14px;
+  object-fit: contain;
+}
+
+.card--text{
+  width: 326px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card--title{
+  font-size: 25px;
+  margin-top: 7px;
+}
+
+.card--desc{
+  margin-top: 9px;
+}
+
+.card--url{
+  color: #918E9B;
+}
