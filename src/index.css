@@ -22,23 +22,23 @@
 
 .navbar--text{
   color: white;
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .card{
   display: flex;
-  width: 470px;
-  font-size: 11px;
+  width: 800px;
+  font-size: 16px;
   margin: 28px 40px 28px 40px;;
 }
 
 .card--image{
-  width: 125px;
-  height: 168px;
+  width: 250px;
   object-fit: cover;
   border-radius: 5px;
   margin-right: 19px;
+  border: 1px solid red;
 }
 
 .card--location-info{
@@ -59,19 +59,20 @@
 }
 
 .card--text{
-  width: 326px;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .card--title{
-  font-size: 25px;
+  font-size: 28px;
   margin-top: 7px;
 }
 
 .card--desc{
   margin-top: 9px;
+  word-wrap: break-word;
 }
 
 .card--url{
